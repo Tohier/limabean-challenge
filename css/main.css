@@ -6,7 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
-  background-image: url(../../images/headerBackground.jpg);
+  background-image: url(../images/headerBackground.jpg);
   background-repeat: no-repeat; }
 
 .logo {
