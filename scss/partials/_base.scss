@@ -10,3 +10,52 @@ body {
     background-image: url(../images/headerBackground.jpg);
     background-repeat: no-repeat;
 }
+
+.hero-text {
+    position: absolute;
+    left: 40%;
+    top: 33%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    h1 {
+        font-size: 3rem;
+        margin: 0px;
+    }
+
+    p {
+        font-size: 20px;
+        position: relative;
+        left: -7%;
+        top: 14px;
+        color: whitesmoke;
+    }
+
+    button {
+        height: 44px;
+        width: 15rem;
+        border-radius: 100px;
+        border: none;
+        border: 2px solid white;
+        background-color: $button;
+        color: white;
+        position: relative;
+        left: 11%;
+        margin-top: 10%;
+        font-weight: 900;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: white;
+        color: $button;
+        transition: 250ms;
+        transform: scale(1.1);
+        border: 2px solid $button;
+    }
+}
+
+#holi {
+    position: relative;
+    left: -9%;
+}

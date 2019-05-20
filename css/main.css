@@ -9,6 +9,45 @@ body {
   background-image: url(../images/headerBackground.jpg);
   background-repeat: no-repeat; }
 
+.hero-text {
+  position: absolute;
+  left: 40%;
+  top: 33%;
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+  .hero-text h1 {
+    font-size: 3rem;
+    margin: 0px; }
+  .hero-text p {
+    font-size: 20px;
+    position: relative;
+    left: -7%;
+    top: 14px;
+    color: whitesmoke; }
+  .hero-text button {
+    height: 44px;
+    width: 15rem;
+    border-radius: 100px;
+    border: none;
+    border: 2px solid white;
+    background-color: #FF4E50;
+    color: white;
+    position: relative;
+    left: 11%;
+    margin-top: 10%;
+    font-weight: 900; }
+  .hero-text button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #FF4E50;
+    transition: 250ms;
+    transform: scale(1.1);
+    border: 2px solid #FF4E50; }
+
+#holi {
+  position: relative;
+  left: -9%; }
+
 .logo {
   position: absolute;
   top: 2.5rem;
