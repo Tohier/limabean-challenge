@@ -1,0 +1,52 @@
+.logo {
+    position: absolute;
+    top: 2.5rem;
+    left: 20%;
+
+    img {
+        height: 20px;
+        filter: invert(100%);
+    }
+}
+
+
+
+.navbar {
+    list-style: none;
+    text-align: right;
+    display: inline-flex;
+    position: absolute;
+    left: 50%;
+    top: 2.5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+
+    li {
+        padding-right: 30px;
+    }
+}
+#sign {
+    border: 2px solid white;
+    position: absolute;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 200px;
+    right: -80px;
+    top: -9px;
+}
+
+#sign:hover {
+    background-color: white;
+    border: 2px solid $button; 
+}
+
+// code for the nav hover effect
+li:hover {
+    transform: scale(1.2);
+    transition: 250ms;
+    color: $button;
+    cursor: pointer;
+}
