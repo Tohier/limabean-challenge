@@ -1,0 +1,14 @@
+body {
+  background-image: url(../images/wood.jpg); }
+
+.intro {
+  text-align: center;
+  font-size: 5em; }
+
+.head {
+  position: absolute;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 100px; }
+
+/*# sourceMappingURL=main.css.map */
