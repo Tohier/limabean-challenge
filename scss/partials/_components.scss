@@ -91,3 +91,26 @@ li:hover {
             filter: invert(100%);
         }
 }
+// code for marie's icon
+#marie {
+    .svg{
+        left: 41%;
+        background: $paint;
+    }
+}
+// code for diana's icon
+#diana {
+    .svg{
+        left: 63%;
+        background-color: $camera;
+    }
+}
+
+// code for chris's icon
+#chris {
+    .svg{
+        left: 85%;
+        background-color: $plane;
+    }
+}
+
