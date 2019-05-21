@@ -1,0 +1,16 @@
+.partner {
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 6vw;
+
+    div {
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        }
+    }
+}
