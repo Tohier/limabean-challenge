@@ -12,5 +12,16 @@
             height: 150px;
             border-radius: 100%;
         }
+
     }
 }
+
+// for the holiday masonry
+.masonry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25rem 25rem 25rem;
+    grid-gap: 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+} 

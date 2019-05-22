@@ -3,7 +3,8 @@ html {
 
 body {
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif; }
 
 .hero {
   width: 100vw;
@@ -124,8 +125,7 @@ li:hover {
   color: #444444;
   font-family: 'Roboto', sans-serif; }
 .partner p {
-  color: #666666;
-  font-family: 'Roboto', sans-serif; }
+  color: #666666; }
 
 .svg {
   background-color: #FF4E50;
@@ -155,6 +155,50 @@ li:hover {
   left: 85%;
   background-color: #667DF3; }
 
+#holiday-heading {
+  color: #444444;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
+.item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.5%;
+  position: inherit;
+  text-align: center; }
+
+.item p {
+  font-size: 23px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif; }
+
+.item1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block1Sports.jpg); }
+
+.item2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block2Wellness.jpg); }
+
+.item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block3Expeditions.jpg); }
+
+.item4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block4Games.jpg); }
+
+.item5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block5Culture.jpg);
+  grid-column: 2/4; }
+
+.item6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block6Beauty.jpg);
+  grid-column: 1/3; }
+
+.item7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block7Travelling.jpg); }
+
 .partner {
   margin-top: 4vw;
   margin-bottom: 6vw;
@@ -166,5 +210,13 @@ li:hover {
     width: 150px;
     height: 150px;
     border-radius: 100%; }
+
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25rem 25rem 25rem;
+  grid-gap: 2rem;
+  max-width: 60rem;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
