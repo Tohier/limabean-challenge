@@ -1,0 +1,31 @@
+@media (max-width: 767px){
+    .logo img {
+        position: absolute;
+        left: -9rem;
+    }
+    .navbar {
+        left: 29%;
+        font-size: 1.1rem;
+    }
+    .hero-text{
+        left: 27%;
+    }
+    .svg{
+        left: 22%;
+        top: 136%;
+    }
+    #marie .svg {
+        left: 48%;
+    }
+    #diana .svg {
+        left: 69%;
+    }
+    #chris .svg {
+        left: 91%;
+        
+    }
+
+    #partner-btn{
+        left: 15rem;
+    }
+}

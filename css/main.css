@@ -71,6 +71,11 @@ body {
   color: #18D4CA;
   cursor: pointer; }
 
+footer {
+  border-top: 3px solid #FF4E50;
+  width: 100vw;
+  margin-top: 5rem; }
+
 .logo {
   position: absolute;
   top: 2.5rem;
@@ -158,7 +163,8 @@ li:hover {
 #holiday-heading {
   color: #444444;
   font-family: 'Roboto', sans-serif;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 3rem; }
 
 .item {
   width: 100%;
@@ -174,31 +180,67 @@ li:hover {
 .item p {
   font-size: 23px;
   color: #fff;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 42%;
+  font-weight: 900; }
+
+.item p:hover {
+  cursor: pointer;
+  color: black;
+  transform: scale(1.2);
+  transition: 250ms; }
 
 .item1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block1Sports.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/block1Sports.jpg); }
 
 .item2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block2Wellness.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/block2Wellness.jpg); }
 
 .item3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block3Expeditions.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/block3Expeditions.jpg); }
 
 .item4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block4Games.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/block4Games.jpg); }
 
 .item5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block5Culture.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/block5Culture.jpg);
   grid-column: 2/4; }
 
 .item6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block6Beauty.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/block6Beauty.jpg);
   grid-column: 1/3; }
 
 .item7 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block7Travelling.jpg); }
 
+@media (max-width: 767px) {
+  .logo img {
+    position: absolute;
+    left: -9rem; }
+
+  .navbar {
+    left: 29%;
+    font-size: 1.1rem; }
+
+  .hero-text {
+    left: 27%; }
+
+  .svg {
+    left: 22%;
+    top: 136%; }
+
+  #marie .svg {
+    left: 48%; }
+
+  #diana .svg {
+    left: 69%; }
+
+  #chris .svg {
+    left: 91%; }
+
+  #partner-btn {
+    left: 15rem; } }
 .partner {
   margin-top: 4vw;
   margin-bottom: 6vw;
